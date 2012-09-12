@@ -1,0 +1,57 @@
+body
+{
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 1 em;
+}
+
+#container
+{
+	position: relative;
+	margin: 0 auto;
+	width: 500px;
+}
+#placeholder
+{
+	width:500px;
+	height:340px;
+}
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+}
+
+input[type=number]
+{
+	padding: 2px;
+	outline: none;
+    -webkit-border-radius: 3px;  
+    -moz-border-radius: 3px;  
+    border-radius: 3px;  
+    border: 1px solid #919191;  
+}
+
+input#k
+{
+	background: url('img/icon-sword-transparent.png') center right no-repeat;
+}
+
+input#d
+{
+	background: url('img/icon-skull-transparent.png') center right no-repeat;
+}
+
+input#a
+{
+	background: url('img/icon-hand-transparent.png') center right no-repeat;
+}
+
+input#sim
+{
+	width: 5em;
+}
+
+input.kda
+{
+	width:3em;
+}
